@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-18d6f61c6fa-738a470e95a1528f": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "sprintsync",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "sprintsync",
+				"url": "jdbc:postgresql://localhost:5432/sprintsync",
+				"configurationType": "MANUAL",
+				"home": "/Library/PostgreSQL/16",
+				"type": "dev",
+				"provider-properties": {},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800
+		}
+	}
+}
